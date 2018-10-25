@@ -1,0 +1,62 @@
+/* Diseño primer menu */ 
+.sucursales{
+    color:rgb(1, 119, 200) !important;
+}
+.servicio{
+    color:rgb(1, 119, 200) !important;
+}
+.buscar{
+    color:rgb(1, 119, 200);
+    border-color:rgb(1, 119, 200);;
+}
+::placeholder{
+    color:rgb(1, 119, 200) !important; 
+}
+
+/*Diseño segundo menu */
+
+.bg-light{
+    background-color: rgb(48, 122, 173) !important;
+}
+.logo{
+    width: 20%;
+}
+.contacta{
+    border-color: white;
+    color: white;
+} 
+/*formulario */
+.login{
+background-image: url("../imagenes/5.jpeg");
+height: 600px;
+background-repeat: no-repeat;
+}
+.fondoLogin{
+    background-color: white;
+    margin-top: 5%;
+    padding: 5%;
+    margin-left: 10%;
+    border-radius: 10px;
+    margin-right: 10%;
+    
+}
+.tituloLogin{
+    font-size: 20px;
+    color:rgb(48, 122, 173);
+    
+}
+.correo{
+color: rgb(48, 122, 173);
+}
+.ingresar{
+    background-color: rgb(241, 240, 240) !important;
+    border-color: rgb(212, 212, 212) !important;
+    color: rgb(212, 212, 212) !important;
+}
+ /*diseño de segunda caja*/
+ .info{
+     background-color:white;
+     height: 160px;
+     margin-top: 0px;
+     border-top: 5px solid rgb(48, 122, 173);
+ }
