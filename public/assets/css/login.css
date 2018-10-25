@@ -245,3 +245,34 @@ height: 500px;
         padding-bottom: 10%;
     }
 }
+
+@media(max-width: 320px){
+    .salcobrand{
+        width: 290px;
+    }
+    .niño{
+    width: 290px;
+    }
+    .tienda{
+    width: 290px
+    }
+    .cuarta{
+        background-color: rgb(158, 158, 158);
+        height: 100%;
+    }
+    .informacio{
+        margin-left: 30%;
+    }
+}
+
+@media(max-width: 375px){
+    .salcobrand{
+        width: 340px;
+    }
+    .niño{
+    width: 340px;
+    }
+    .tienda{
+    width: 340px
+    }
+}
