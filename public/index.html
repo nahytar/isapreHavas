@@ -26,19 +26,19 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="./assets/css/login.css">
+  <link rel="stylesheet" href="./assets/css/navbar.css">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="animate.min.css">
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
     crossorigin="anonymous">
 
-  <script src="./assets/js/login.js"></script>
-  <script src="./assets/js/main.js"></script>
-  <script src="../public/assets/js/data.js"></script>
+
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/index.css">
 
@@ -47,7 +47,7 @@
 <body>
   <!--=======================================login=========================================== -->
   <!--Menu-->
-  <section id="areaLogin">
+  <section id="logInPage">
     <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: white !important;">
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -76,7 +76,7 @@
 
     <!--Segundo menu-->
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#"></a>
+      <a class="navbar-brand" href="#"><img class="logo" src="./assets/imagenes/logo-C copia.png" alt="" srcset=""></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -108,21 +108,26 @@
     <!--sección-->
     <section class="container-fluid login">
       <div class="row justify-content-lg-left">
-        <div class="col col-lg-3 fondoLogin">
+        <div class="col-9 col-lg-3 fondoLogin">
           <p class="tituloLogin">Ingreso a Mi Colmena</p>
-          <div class="form-group">
-            <label for="exampleInputEmail1" class="correo">Rut</label>
-            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="12.405.745-2">
-          </div>
-          <div class="form-group">
-            <label for="exampleInputPassword1" class="correo">Clave</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Clave">
-            <a href=""><small id="emailHelp" class="form-text text-muted" class="correo"></small></a>
-          </div>
-          <button type="submit" class="btn btn-primary ingresar" disabled onclick="showLogin()">Ingresar</button>
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1" class="correo">Rut</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="12.405.745-2">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1" class="correo">Clave</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Clave">
+              <a href=""><small id="emailHelp" class="form-text text-muted" class="correo"></small></a>
+            </div>
+            <button type="button" class="btn btn-primary ingresar" onclick="showlogInPage()">Ingresar</button>
           </form>
         </div>
+        <div class="col-lg-3 offset-lg-3 col-3 offset-3">
+          <a href="" class=""><img class=" chatbot" src="./assets/imagenes/chatbot.png" alt="" srcset=""></a>
+        </div>
       </div>
+
     </section>
 
     <!--Segunda caja-->
@@ -202,7 +207,6 @@
               <button type="button" class="btn btn-outline-info disabled cuartaSección">Conoce Medicien</button>
             </div>
           </div>
-        </div>
     </section>
     <!--Secciñin de información-->
     <section class="container-fluid información">
@@ -234,16 +238,40 @@
 
   <!-- =====================================Navbar================================================ -->
   <section id="sectionNavbar">
-    <div>
-      <p>aqui va el navbar</p>
-    </div>
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"><img class="logo" src="./assets/imagenes/logo-C copia.png" alt="" srcset=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0  buscar" type="submit"><i class="fas fa-search"></i></button>
+          </form>
+          <li class="nav-item active">
+            <a class="nav-link menu" href="#"><i class="fas fa-user-alt"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link menu" href="#"><i class="fas fa-question-circle"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link menu" href="#"><i class="fas fa-power-off"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </section>
+
+
 
 
   <!-- ===================================================================================== -->
 
   <!-- ===================================Area media========================================= -->
-  <section id="areaPricipal">
+  <section id="homePage">
     <div class="container areaPricipal">
       <div class="row">
         <div class="col-md-4">
@@ -326,6 +354,10 @@
 
   <!-- ===================================Fin area media========================================= -->
 
+  <script src="assets/js/login.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/data.js"></script>
 </body>
 
 </html>

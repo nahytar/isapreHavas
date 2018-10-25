@@ -1,25 +1,20 @@
-document.addEventListener('DOMContentLoaded', function () {
+// Iniciar Sesión
+// const logIn = function() {
+// 	const emailUser = document.getElementById('emailUser').value;
+// 	const passwordUser = document.getElementById('passwordUser').value;
+// 	firebase.auth().signInWithEmailAndPassword(emailUser, passwordUser)
+// 		.then( function(){
+		
+// 		}).catch(function (error) {
+// 			console.log(error)
+// 		})
+// };
 
-  try {
-    let app = firebase.app();
-    var uiConfig = {
-      signInSuccessUrl: '/',
-      signInOptions: [
-        // Leave the lines as is for the providers you want to offer your users.
-        firebase.auth.EmailAuthProvider.PROVIDER_ID,
-        firebase.auth.GoogleAuthProvider.PROVIDER_ID,
 
-      ],
-      // Terms of service url.
-      tosUrl: '/'
-    };
-
-    // Initialize the FirebaseUI Widget using Firebase.
-    var ui = new firebaseui.auth.AuthUI(firebase.auth());
-    // The start method will wait until the DOM is loaded.
-    ui.start('#firebaseui-auth-container', uiConfig);
-
-  } catch (e) {
-    console.error(e);
-  }
-});
+// // Salir Sesión
+// const logOut = function() {
+// 	firebase.auth().signOut().then(function() {
+// 	}).catch(function(error) {
+// 		console.log(error)
+// 	});
+// }
