@@ -76,3 +76,11 @@ fa-angle-right{
   border-radius: 30px;
   width: 80%;
 }
+.iconcheck {
+  font-size: 80px;
+  color: rgb(15, 209, 15);
+}
+
+.btnDescarga {
+  margin-bottom: 20px;
+}
