@@ -47,276 +47,282 @@
 <body>
   <!--=======================================login=========================================== -->
   <!--Menu-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: white !important;">
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Personas | </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Empresas | </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Prestadores</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link sucursales" href="#">Sucursales</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link servicio" href="#">Servicio al cliente</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="¿Qué estás buscando?">
-        <button class="btn btn-outline-success my-2 my-sm-0 buscar" type="submit"><i class="fas fa-search"></i></button>
-      </form>
-    </div>
-  </nav>
-
-  <!--Segundo menu-->
-  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link menu" href="#">Planes</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link menu" href="#">Beneficios</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle menu" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            GES - CAEC
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-
-        <button type="button" class="btn btn-outline-secondary contacta">Contacta a un Agente</button>
-      </ul>
-    </div>
-  </nav>
-  <!--sección-->
-  <section class="container-fluid login">
-    <div class="row justify-content-lg-left">
-      <div class="col col-lg-3 fondoLogin">
-        <p class="tituloLogin">Ingreso a Mi Colmena</p>
-        <div class="form-group">
-          <label for="exampleInputEmail1" class="correo">Rut</label>
-          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="12.405.745-2">
-        </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1" class="correo">Clave</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Clave">
-          <a href=""><small id="emailHelp" class="form-text text-muted" class="correo"></small></a>
-        </div>
-        <button type="submit" class="btn btn-primary ingresar" disabled>Ingresar</button>
+  <section id="areaLogin">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: white !important;">
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Personas | </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Empresas | </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Prestadores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link sucursales" href="#">Sucursales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link servicio" href="#">Servicio al cliente</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="¿Qué estás buscando?">
+          <button class="btn btn-outline-success my-2 my-sm-0 buscar" type="submit"><i class="fas fa-search"></i></button>
         </form>
       </div>
-    </div>
-  </section>
+    </nav>
 
-  <!--Segunda caja-->
-  <section class="container-fluid info">
-    <div class="row justify-content-md-center">
-      <div class="col col-lg-4">
-        <h4 class="tituloSegundaSección" style="color: rgb(48, 122, 173);">Reembolso Digital</h4>
-        <p class="parrafoSegundaSección">Ahorra tiempo, hazlo fácil y reembolsa en nuestras plataformas</p>
+    <!--Segundo menu-->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link menu" href="#">Planes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link menu" href="#">Beneficios</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle menu" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              GES - CAEC
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+
+          <button type="button" class="btn btn-outline-secondary contacta">Contacta a un Agente</button>
+        </ul>
       </div>
-      <div class="col-lg-4">
-        <h4 class="tituloSegundaSección">Nuevos Planes de Salud Báltico</h4>
-        <p class="parrafoSegundaSección">Con prestadores preferentes de primer nivel</p>
-      </div>
-      <div class="col col-lg-4">
-        <h4 class="tituloSegundaSección">Bono Costo Cero en Medicien</h4>
-        <p class="parrafoSegundaSección">En algunas prestaciones, hasta el 31 de diciembre de 2018</p>
-      </div>
-    </div>
-  </section>
-  <!--cuarta sección-->
-  <section class="container-fluid cuarta">
-    <div class="row justify-content-md-center">
-      <div class="col-11 col-lg-11 blanco">
-        <div class="row">
-          <div class="col-lg-6">
-            <h4 class="tituloCuartaSección">Elige tu Plan de Salud</h4>
-            <p class="parrafoSegundaSección">Revisa los Planes de Salud que tenemos para ti, con acceso a
-              las mejores clinicas y especialistas.</p>
-            <button type="button" class="btn btn-outline-info disabled cuartaSección">Cotiza tu plan más
-              conveniente</button>
+    </nav>
+    <!--sección-->
+    <section class="container-fluid login">
+      <div class="row justify-content-lg-left">
+        <div class="col col-lg-3 fondoLogin">
+          <p class="tituloLogin">Ingreso a Mi Colmena</p>
+          <div class="form-group">
+            <label for="exampleInputEmail1" class="correo">Rut</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="12.405.745-2">
           </div>
-          <div class="col-lg-6">
-            <h4 class="tituloCuartaSección">Bono Costo Cero</h4>
-            <p class="parrafoSegundaSección">Contamos con convenios para que puedas acceder a exámenes de
-              laboratorio, imágenes y procedimientos sin costo.</p>
-            <button type="button" class="btn btn-outline-info disabled cuartaSección">Infórmate aquí</button>
+          <div class="form-group">
+            <label for="exampleInputPassword1" class="correo">Clave</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Clave">
+            <a href=""><small id="emailHelp" class="form-text text-muted" class="correo"></small></a>
+          </div>
+          <button type="submit" class="btn btn-primary ingresar" disabled onclick="showLogin()">Ingresar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!--Segunda caja-->
+    <section class="container-fluid info">
+      <div class="row justify-content-md-center">
+        <div class="col col-lg-4">
+          <h4 class="tituloSegundaSección" style="color: rgb(48, 122, 173);">Reembolso Digital</h4>
+          <p class="parrafoSegundaSección">Ahorra tiempo, hazlo fácil y reembolsa en nuestras plataformas</p>
+        </div>
+        <div class="col-lg-4">
+          <h4 class="tituloSegundaSección">Nuevos Planes de Salud Báltico</h4>
+          <p class="parrafoSegundaSección">Con prestadores preferentes de primer nivel</p>
+        </div>
+        <div class="col col-lg-4">
+          <h4 class="tituloSegundaSección">Bono Costo Cero en Medicien</h4>
+          <p class="parrafoSegundaSección">En algunas prestaciones, hasta el 31 de diciembre de 2018</p>
+        </div>
+      </div>
+    </section>
+    <!--cuarta sección-->
+    <section class="container-fluid cuarta">
+      <div class="row justify-content-md-center">
+        <div class="col-11 col-lg-11 blanco">
+          <div class="row">
+            <div class="col-lg-6">
+              <h4 class="tituloCuartaSección">Elige tu Plan de Salud</h4>
+              <p class="parrafoSegundaSección">Revisa los Planes de Salud que tenemos para ti, con acceso a
+                las mejores clinicas y especialistas.</p>
+              <button type="button" class="btn btn-outline-info disabled cuartaSección">Cotiza tu plan más
+                conveniente</button>
+            </div>
+            <div class="col-lg-6">
+              <h4 class="tituloCuartaSección">Bono Costo Cero</h4>
+              <p class="parrafoSegundaSección">Contamos con convenios para que puedas acceder a exámenes de
+                laboratorio, imágenes y procedimientos sin costo.</p>
+              <button type="button" class="btn btn-outline-info disabled cuartaSección">Infórmate aquí</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="row justify-content-md-center">
-      <div class="col-12 col-lg-11 blanco2">
-        <h2 class="tituloCuartaSección" style="text-align: center;">Nuestras Alianzas</h2>
-        <p class="parrafoSegundaSección" style="text-align: center;">Infórmate de las promociones y descuentos
-          que tenemos con nuestra alianzas Colmena, pensadas para ti y tu familia.</p>
-        <div class="row">
-          <div class="col-12 col-lg-4">
-            <img class="salcobrand" src="./assets/imagenes/prueba.png" alt="" srcset="">
-          </div>
-          <div class="col-12 col-lg-4">
-            <img class="niño" src="./assets/imagenes/niño copia.png" alt="" srcset="">
-          </div>
-          <div class="col-12 col-lg-4">
-            <img class="tienda" src="./assets/imagenes/Tienda_saludable.jpg" alt="" srcset="">
+      <div class="row justify-content-md-center">
+        <div class="col-12 col-lg-11 blanco2">
+          <h2 class="tituloCuartaSección" style="text-align: center;">Nuestras Alianzas</h2>
+          <p class="parrafoSegundaSección" style="text-align: center;">Infórmate de las promociones y descuentos
+            que tenemos con nuestra alianzas Colmena, pensadas para ti y tu familia.</p>
+          <div class="row">
+            <div class="col-12 col-lg-4">
+              <img class="salcobrand" src="./assets/imagenes/prueba.png" alt="" srcset="">
+            </div>
+            <div class="col-12 col-lg-4">
+              <img class="niño" src="./assets/imagenes/niño copia.png" alt="" srcset="">
+            </div>
+            <div class="col-12 col-lg-4">
+              <img class="tienda" src="./assets/imagenes/Tienda_saludable.jpg" alt="" srcset="">
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
 
-  <!--Seccion de colmena seguros-->
-  <section class="container-fluid seguros">
-    <div class="row justify-content-md-center">
-      <div class="col-11 col-lg-11 fondoSeguros">
-        <div class="row">
-          <div class="col-lg-6">
-            <h4 class="tituloCuartaSección">Colmenna Seguros</h4>
-            <p class="parrafoSegundaSección">Soluciones orientadas a la protección de tu familia, con una amplia gama
-              de productos de Seguros de Vida y Salud</p>
-            <button type="button" class="btn btn-outline-info disabled cuartaSección">Conoce Colmena Seguros</button>
+    <!--Seccion de colmena seguros-->
+    <section class="container-fluid seguros">
+      <div class="row justify-content-md-center">
+        <div class="col-11 col-lg-11 fondoSeguros">
+          <div class="row">
+            <div class="col-lg-6">
+              <h4 class="tituloCuartaSección">Colmenna Seguros</h4>
+              <p class="parrafoSegundaSección">Soluciones orientadas a la protección de tu familia, con una amplia gama
+                de productos de Seguros de Vida y Salud</p>
+              <button type="button" class="btn btn-outline-info disabled cuartaSección">Conoce Colmena Seguros</button>
+            </div>
+            <div class="col-lg-6">
+              <h4 class="tituloCuartaSección">Medicien</h4>
+              <p class="parrafoSegundaSección">Nuevo centro médico integral ambulatorio. Orientado a la excelencia de
+                servicio para cuidar tu salud y la de tu familia.</p>
+              <button type="button" class="btn btn-outline-info disabled cuartaSección">Conoce Medicien</button>
+            </div>
           </div>
-          <div class="col-lg-6">
-            <h4 class="tituloCuartaSección">Medicien</h4>
-            <p class="parrafoSegundaSección">Nuevo centro médico integral ambulatorio. Orientado a la excelencia de
-              servicio para cuidar tu salud y la de tu familia.</p>
-            <button type="button" class="btn btn-outline-info disabled cuartaSección">Conoce Medicien</button>
+        </div>
+    </section>
+    <!--Secciñin de información-->
+    <section class="container-fluid información">
+      <div class="row justify-content-md-center">
+        <div class="col-12 col-lg-11 fondoInformación">
+          <div class="row">
+            <div class="col-12 col-lg-4">
+              <h4 class="ultimoTitulo">Pago de Cotizaciones</h4>
+              <p class="ultimoParrafo">Accede y paga de manera simple y rápida tus cotizaciones de forma online</p>
+              <button type="button" class="btn btn-outline-info disabled informacio">Ingresa aquí</button>
+            </div>
+            <div class="col-12 col-lg-4">
+              <h4 class="ultimoTitulo">Colmena te informa</h4>
+              <p class="ultimoParrafo">Te mantendremos informados de temas relacionados a nuestra Isapre.</p>
+              <button type="button" class="btn btn-outline-info disabled informacio">Infórmate aquí</button>
+            </div>
+            <div class="col-12 col-lg-4">
+              <h4 class="ultimoTitulo">Preguntas Frecuentes</h4>
+              <p class="ultimoParrafo">Revisa el manual de preguntas y respuestas que hemos preparado para ti</p>
+              <button type="button" class="btn btn-outline-info disabled informacio">Ingresa aquí</button>
+            </div>
           </div>
         </div>
       </div>
-  </section>
-  <!--Secciñin de información-->
-  <section class="container-fluid información">
-    <div class="row justify-content-md-center">
-      <div class="col-12 col-lg-11 fondoInformación">
-        <div class="row">
-          <div class="col-12 col-lg-4">
-            <h4 class="ultimoTitulo">Pago de Cotizaciones</h4>
-            <p class="ultimoParrafo">Accede y paga de manera simple y rápida tus cotizaciones de forma online</p>
-            <button type="button" class="btn btn-outline-info disabled informacio">Ingresa aquí</button>
-          </div>
-          <div class="col-12 col-lg-4">
-            <h4 class="ultimoTitulo">Colmena te informa</h4>
-            <p class="ultimoParrafo">Te mantendremos informados de temas relacionados a nuestra Isapre.</p>
-            <button type="button" class="btn btn-outline-info disabled informacio">Infórmate aquí</button>
-          </div>
-          <div class="col-12 col-lg-4">
-            <h4 class="ultimoTitulo">Preguntas Frecuentes</h4>
-            <p class="ultimoParrafo">Revisa el manual de preguntas y respuestas que hemos preparado para ti</p>
-            <button type="button" class="btn btn-outline-info disabled informacio">Ingresa aquí</button>
-          </div>
-        </div>
-      </div>
-    </div>
+    </section>
   </section>
 
   <!---------------===========================FIN SECCIÓN LOGIN============-->
 
   <!-- =====================================Navbar================================================ -->
-
-
-
+  <section id="sectionNavbar">
+    <div>
+      <p>aqui va el navbar</p>
+    </div>
+  </section>
 
 
   <!-- ===================================================================================== -->
 
   <!-- ===================================Area media========================================= -->
-  <div class="container areaPricipal">
-    <div class="row">
-      <div class="col-md-4">
-        <h2 class="card-title">Últimas solicitudes:</h2>
-        <div class="card" style="width: 18rem; height: 90vh;">
-          <div class="card-body">
-            <div class="styleCard">
-              <span class="card-text"><i class="fas fa-angle-right"></i> 23/10 | Bono web: Dr. Hiachimingo Perez</span>
-              <p>Pediatra</p>
-              <a href="#" class="btn btn-primary btn-sm">Comprar <i class="fas fa-redo-alt"></i></a>
-            </div>
-            <div class="styleCard">
-              <p class="card-text"><i class="fas fa-angle-right"></i> 23/10 | Reembolso</p>
-              <a href="#" class="btn btn-primary btn-sm">Ver estado</a>
-            </div>
-            <div class="styleCard">
-              <span class="card-text"><i class="fas fa-angle-right"></i> 20/09 | Bono web: Dr. Aquiles Baeza</span>
-              <p>Psicologo</p>
-              <a href="#" class="btn btn-primary btn-sm">Comprar <i class="fas fa-redo-alt"></i></a>
+  <section id="areaPricipal">
+    <div class="container areaPricipal">
+      <div class="row">
+        <div class="col-md-4">
+          <h2 class="card-title">Últimas solicitudes:</h2>
+          <div class="card" style="width: 18rem; height: 90vh;">
+            <div class="card-body">
+              <div class="styleCard">
+                <span class="card-text"><i class="fas fa-angle-right"></i> 23/10 | Bono web: Dr. Hiachimingo Perez</span>
+                <p>Pediatra</p>
+                <a href="#" class="btn btn-primary btn-sm">Comprar <i class="fas fa-redo-alt"></i></a>
+              </div>
+              <div class="styleCard">
+                <p class="card-text"><i class="fas fa-angle-right"></i> 23/10 | Reembolso</p>
+                <a href="#" class="btn btn-primary btn-sm">Ver estado</a>
+              </div>
+              <div class="styleCard">
+                <span class="card-text"><i class="fas fa-angle-right"></i> 20/09 | Bono web: Dr. Aquiles Baeza</span>
+                <p>Psicologo</p>
+                <a href="#" class="btn btn-primary btn-sm">Comprar <i class="fas fa-redo-alt"></i></a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
 
-      <div class="col-md-4">
-        <div class="card cardSection" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">Bonos web</h5>
-            <p><i class="fab fa-wpforms iconBono"></i></p>
-            <p>Puedes comprar tus bonos direcatmente desde tu sucursal virtual.</p>
-            <a href="#" class="btn btn-primary btnMaxRound">Comprar bono</a>
-          </div>
-        </div>
-
-        <div class="card cardSection" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">Beneficios</h5>
-            <div class="iconsBeneficios">
-              <p><i class="fas fa-check iconCheck"></i> Bono costo cero</p>
-              <p><i class="fas fa-check iconCheck"></i> Atencion dental</p>
-              <p><i class="fas fa-check iconCheck"></i> Atencion kinesiologica</p>
-              <p><i class="fas fa-lock iconLock"></i> Asistencia de viaje</p>
-              <p><i class="fas fa-lock iconLock"></i> Doctor online</p>
+        <div class="col-md-4">
+          <div class="card cardSection" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Bonos web</h5>
+              <p><i class="fab fa-wpforms iconBono"></i></p>
+              <p>Puedes comprar tus bonos direcatmente desde tu sucursal virtual.</p>
+              <a href="#" class="btn btn-primary btnMaxRound">Comprar bono</a>
             </div>
-            <a href="#" class="btn btn-primary btnMaxRound">Ver mas</a>
           </div>
-        </div>
 
-      </div>
-
-      <div class="col-md-4">
-        <div class="card cardSection" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">Reembolso</h5>
-            <p><i class="fas fa-hand-holding-usd iconReembolso"></i></p>
-            <p>Evita hacer filas, realiza todos tus reembolsos de forma online.</p>
-            <a href="#" class="btn btn-primary btnMaxRound">Solicitar</a>
-          </div>
-        </div>
-        <div class="card cardSection" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">Cuentas</h5>
-            <div class="styleCard">
-              <p class="card-text txt"><i class="fas fa-angle-right"></i> Tu saldo excedente es de $2.280</p>
-              <p class="txt">Revisalo aqui</p>
+          <div class="card cardSection" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Beneficios</h5>
+              <div class="iconsBeneficios">
+                <p><i class="fas fa-check iconCheck"></i> Bono costo cero</p>
+                <p><i class="fas fa-check iconCheck"></i> Atencion dental</p>
+                <p><i class="fas fa-check iconCheck"></i> Atencion kinesiologica</p>
+                <p><i class="fas fa-lock iconLock"></i> Asistencia de viaje</p>
+                <p><i class="fas fa-lock iconLock"></i> Doctor online</p>
+              </div>
+              <a href="#" class="btn btn-primary btnMaxRound">Ver mas</a>
             </div>
-            <div class="styleCard">
-              <p class="card-text txt"><i class="fas fa-angle-right"></i> Tu plan es: Familiar Blue</p>
-              <p class="txt">Revisalo aqui</p>
-            </div>
-            <a href="#" class="btn btn-primary btnMaxRound" class="txt">Ir a Mi cuenta</a>
           </div>
+
         </div>
 
+        <div class="col-md-4">
+          <div class="card cardSection" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Reembolso</h5>
+              <p><i class="fas fa-hand-holding-usd iconReembolso"></i></p>
+              <p>Evita hacer filas, realiza todos tus reembolsos de forma online.</p>
+              <a href="#" class="btn btn-primary btnMaxRound">Solicitar</a>
+            </div>
+          </div>
+          <div class="card cardSection" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Cuentas</h5>
+              <div class="styleCard">
+                <p class="card-text txt"><i class="fas fa-angle-right"></i> Tu saldo excedente es de $2.280</p>
+                <p class="txt">Revisalo aqui</p>
+              </div>
+              <div class="styleCard">
+                <p class="card-text txt"><i class="fas fa-angle-right"></i> Tu plan es: Familiar Blue</p>
+                <p class="txt">Revisalo aqui</p>
+              </div>
+              <a href="#" class="btn btn-primary btnMaxRound" class="txt">Ir a Mi cuenta</a>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
-  </div>
+  </section>
 
   <!-- ===================================Fin area media========================================= -->
 
