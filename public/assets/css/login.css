@@ -68,6 +68,10 @@ font-family: 'Roboto', sans-serif;
     color: rgb(212, 212, 212) !important;
     font-family: 'Roboto', sans-serif;
 }
+.chatbot{
+    margin-top: 170%;
+    margin-left: 60%;
+}
  /*diseño de segunda caja*/
  .info{
      background-color:white;
@@ -191,6 +195,19 @@ height: 500px;
     font-family: 'Roboto', sans-serif;
 }
 @media(max-width: 425px){
+    .fondoLogin{
+        width: 150px;
+        margin-top: 5%;
+        padding: 5%;
+        margin-left: 10%;
+        border-radius: 10px;
+        margin-right: 10%;
+        
+    }
+    .chatbot{
+        margin-top: 200%;
+        margin-left: 200%;
+    }
     .info{
         height: 440px;
     }
