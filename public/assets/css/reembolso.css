@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}
+
+.reembolso{
+  height: 100vh;
+}
+
+.btnMaxRound{
+  background-color: #0077C8 ;
+  border-radius: 73px;
+}
+
+.btnMedRound{
+  background-color: #0077C8;
+  border-radius: 17px;
+  font-size: 14px;
+}
+
+.btnMedNoRound{
+  border-radius: 0;
+  font-size: 14px;
+}
+
+.btnMedRound:hover,
+.btnMedNoRound:hover{
+  background-color: #FFDD64;
+}
+
+.navbarDB{
+  justify-content: center; display: flex;
+}
+
+.btn-primary{
+  background-color: #0077C8;
+}
+
+.btnCircle{
+  background-color: transparent;
+  color: #0077C8;
+  border: solid 2px;
+  margin: 40px;
+  height: 47px;
+  width: 47px;
+  border-radius: 50%;
+}
+
+.btnCircleGroup{
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.trBlue th{
+  background-color: #0077C8;
+}
