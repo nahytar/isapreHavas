@@ -40,6 +40,7 @@
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/index.css">
   <link rel="stylesheet" href="./assets/css/reembolso.css">
+  <link rel="stylesheet" href="./assets/css/login.css">
 
 </head>
 
@@ -299,7 +300,7 @@
               <h5 class="card-title">Bonos web</h5>
               <p><i class="fab fa-wpforms iconBono"></i></p>
               <p>Puedes comprar tus bonos direcatmente desde tu sucursal virtual.</p>
-              <a href="#" class="btn btn-primary btnMaxRound" onclick="showBonos()">Comprar bono</a>
+              <a href="#" class="btn btn-primary btnMaxRound" onclick="showBonosUno()">Comprar bono</a>
             </div>
           </div>
 
@@ -325,7 +326,7 @@
               <h5 class="card-title">Reembolso</h5>
               <p><i class="fas fa-hand-holding-usd iconReembolso"></i></p>
               <p>Evita hacer filas, realiza todos tus reembolsos de forma online.</p>
-              <a href="#" class="btn btn-primary btnMaxRound">Solicitar</a>
+              <a href="#" class="btn btn-primary btnMaxRound" onclick="showReembolso()">Solicitar</a>
             </div>
           </div>
           <div class="card cardSection" style="width: 18rem;">
@@ -353,7 +354,7 @@
   <!-- ===================================Fin area media========================================= -->
 
   <!-- =================================================Rembolso=============================================================== -->
-  <section id="areaBonoUno">
+  <section id="reembo1so">
     <section class="reembolso">
       <section class="container navbarDB">
         <div class="row">
@@ -373,62 +374,60 @@
           </div>
         </div>
       </section>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-12 col-lg-8 col-xl-9 mt-auto" style="padding-top: 50px;padding-bottom: 0;">
+          <div class="row justify-content-around align-items-center border">
+            <div class=".col-4 .col-sm-6">
+              <p>Fecha Solicitud 25/10/2018</p>
+              <p>Rut Cotizante 17008828-0</p>
+              <p>Celular 099884788</p>
+            </div>
+            <div class=".col-8 .col-sm-6">
+              <p>Cuenta Bancaria - 000234201</p>
+              <p>Nombre Cotizante Nicole Fernandez Ramirez</p>
+              <p>Email cemalu@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-      <section class="container reembolso">
-        <div class="row justify-content-center align-items-center">
-          <div class="col-md-12 col-lg-8 col-xl-9 mt-auto" style="padding-top: 50px;padding-bottom: 0;">
-            <div class="row justify-content-around align-items-center border">
-              <div class=".col-4 .col-sm-6">
-                <p>Fecha Solicitud 25/10/2018</p>
-                <p>Rut Cotizante 17008828-0</p>
-                <p>Celular 099884788</p>
-              </div>
-              <div class=".col-8 .col-sm-6">
-                <p>Cuenta Bancaria - 000234201</p>
-                <p>Nombre Cotizante Nicole Fernandez Ramirez</p>
-                <p>Email cemalu@gmail.com</p>
-              </div>
-            </div>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-12 col-lg-8 col-xl-9" style="padding-top: 10px;">
+          <button class="btn btn-primary btnMaxRound" type="button" style="width: 240px;">+ Agregar
+            Documentos</button>
+          <h3>Listado de Documentos Adjuntos</h3>
+          <div class="table-responsive">
+            <table class="table roundThRight roundThLeft">
+              <thead class="roundThRight roundThLeft">
+                <tr>
+                  <th>Documento de cobro</th>
+                  <th>Orden Medica</th>
+                  <th>Informe Detalle Cobro</th>
+                  <th>Eliminar</th>
+                </tr>
+              </thead>
+            </table>
           </div>
         </div>
-
-        <div class="row justify-content-center align-items-center">
-          <div class="col-md-12 col-lg-8 col-xl-9" style="padding-top: 10px;">
-            <button class="btn btn-primary btnMaxRound" type="button" style="width: 240px;">+ Agregar
-              Documentos</button>
-            <h3>Listado de Documentos Adjuntos</h3>
-            <div class="table-responsive">
-              <table class="table roundThRight roundThLeft">
-                <thead class="roundThRight roundThLeft">
-                  <tr>
-                    <th>Documento de cobro</th>
-                    <th>Orden Medica</th>
-                    <th>Informe Detalle Cobro</th>
-                    <th>Eliminar</th>
-                  </tr>
-                </thead>
-              </table>
+      </div>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-12 col-lg-8 col-xl-9" style="padding-top: 10px;">
+          <h3>¿Deseas agregar una observación?</h3>
+          <div class="card" style="width: 100%;">
+            <div class="card-body">
+              <textarea style="width: 100%;"></textarea>
             </div>
           </div>
+          <button class="btn btn-primary text-center btnMaxRound" type="button" style="width: 240px; margin-top: 10px;">Enviar
+            Solicitud</button>
         </div>
-        <div class="row justify-content-center align-items-center">
-          <div class="col-md-12 col-lg-8 col-xl-9" style="padding-top: 10px;">
-            <h3>¿Deseas agregar una observación?</h3>
-            <div class="card" style="width: 100%;">
-              <div class="card-body">
-                <textarea style="width: 100%;"></textarea>
-              </div>
-            </div>
-            <button class="btn btn-primary text-center btnMaxRound" type="button" style="width: 240px; margin-top: 10px;">Enviar
-              Solicitud</button>
-          </div>
-        </div>
-      </section>
+      </div>
     </section>
   </section>
+
   <!-- =================================================Rembolso=============================================================== -->
   <!-- =================================================Bono 1=============================================================== -->
-  <section class="reembolso">
+  <section class="reembolso" id="bono1">
     <section class="container navbarDB">
       <div class="row">
         <div class="col-md-12 col-lg-8 col-xl-9" style="padding-top: 180px;padding-bottom: 0;">
@@ -459,11 +458,11 @@
             <div class="col-md-12 col-lg-8 col-xl-9">
               <div class="btn-group btn-group-toggle btnCircleGroup" data-toggle="buttons">
 
-                <button type="button" class="btn btn-primary rounded-circle btnCircle">1</button>
+                <button type="button" class="btn btn-primary rounded-circle btnCircle" onclick="showBonosUno()">1</button>
 
-                <button type="button" class="btn btn-primary rounded-circle btnCircle">2</button>
+                <button type="button" class="btn btn-primary rounded-circle btnCircle" onclick="showBonosDos()">2</button>
 
-                <button type="button" class="btn btn-primary  rounded-circle btnCircle">3</button>
+                <button type="button" class="btn btn-primary  rounded-circle btnCircle" onclick="showBonosTres()">3</button>
               </div>
             </div>
           </div>
@@ -588,92 +587,153 @@
         </div>
       </section>
     </section>
+  </section>
 
     <!-- ================================================= Fin Bono 1=============================================================== -->
     <!-- =================================================Bono 2=============================================================== -->
-    <section class="reemblso">
-      <section class="container">
-        <div class="row justify-content-center align-items-center">
-          <div class="col-md-12 col-lg-8 col-xl-9 mt-auto" style="padding-top: 50px;padding-bottom: 0;">
-            <button type="button" class="btn btn-link">Incio ></button><button type="button" class="btn btn-link">Bonos</button>
-            <h3>Compra Bonos Web</h3> <span>Paso 1 de 3 busqueda de especialista</span>
-          </div>
-          <section class="container navbarDB">
-            <div class="row">
-              <div class="col-md-12 col-lg-8 col-xl-9">
-                <div class="btn-group btn-group-toggle btnCircleGroup" data-toggle="buttons">
-
-                  <button type="button" class="btn btn-primary rounded-circle btnCircle">1</button>
-
-                  <button type="button" class="btn btn-primary rounded-circle btnCircle">2</button>
-
-                  <button type="button" class="btn btn-primary  rounded-circle btnCircle">3</button>
+    <section id="bono2" class="reembolso">
+        <section>
+            <section class="container navbarDB">
+                <div class="row">
+                    <div class="col-md-12 col-lg-8 col-xl-9" style="padding-top: 50px;padding-bottom: 0;">
+                        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+        
+                            <button type="button" class="btnMedRound btn btn-primary text-center">Plan y Beneficios</button>
+        
+                            <button type="button" class="btnMedNoRound btn btn-primary text-center">Bonos y Reembolsos</button>
+        
+                            <button type="button" class="btnMedNoRound btn btn-primary  text-center">Certificados</button>
+        
+                            <button type="button" class="btnMedNoRound btn btn-primary  text-center">Coizaciones</button>
+        
+                            <button type="button" class="btnMedRound btn btn-primary text-center">Excedentes y Excesos</button>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </section>
-      </section>
+            </section>
+            <!--Segunda sección-->
+            <section class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-12 col-lg-8 col-xl-9 mt-auto" style="padding-top: 50px;padding-bottom: 0;">
+                        <button type="button" class="btn btn-link">Incio ></button><button type="button" class="btn btn-link">Bonos</button>
+                        <h3>Compra Bonos Web</h3> <span>Paso 1 de 3 busqueda de especialista</span>
+                    </div>
+                    <section class="container navbarDB">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-8 col-xl-9">
+                                <div class="btn-group btn-group-toggle btnCircleGroup" data-toggle="buttons">
+                                    <button type="button" class="btn btn-primary rounded-circle btnCircle" onclick="showBonosUno()">1</button>
 
-      <!--Tercera Sección-->
-      <div class="container">
+                <button type="button" class="btn btn-primary rounded-circle btnCircle" onclick="showBonosDos()">2</button>
+
+                <button type="button" class="btn btn-primary  rounded-circle btnCircle" onclick="showBonosTres()">3</button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+            </section>
+        
+            <!--Tercera Sección-->
+            <div class="container">
+                <div class="row">
+                    <div class="col col-lg-2">
+                        <h5><span class="card-text"><i class="fas fa-angle-right"></i> Detalle:</span></h5>
+                    </div>
+                </div>
+                <div class="row justify-content-md-center">
+                    <div class="col-lg-12">
+                        <div class="card w-80">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col col-lg-4">
+                                        <p class="card-text"><strong>Beneficiario:</strong></p>
+                                        <p class="card-text"><strong>Médico</strong></p>
+                                        <p class="card-text"><strong>Centro de Atención:</strong></p>
+                                    </div>
+                                    <div class="col col-lg-4">
+                                            <p class="card-text">Nicole Fernandez Ramirez</p>
+                                            <p class="card-text">Catalina Larrain Soler</p>
+                                            <p class="card-text">Clinica Santa Maria</p>
+                                    </div>
+                                    <div class="col col-lg-4">
+                                            <p class="card-text"><strong>Especialidad:</strong>Ginecologia</p>
+                                            <p class="card-text"><strong>Comuna:</strong>Providencia</p>
+                                           
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-md-center">
+                        <div class="col-lg-12">
+                            <div class="card w-80">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col col-lg-4">
+                                            <p class="card-text"><strong>Valor Prestación:</strong> $27.378</p>
+                                        </div>
+                                        <div class="col col-lg-4">
+                                                <p class="card-text"><strong>Cobertura:</strong> $16.427</p>
+                                        </div>
+                                        <div class="col col-lg-4">
+                                                <h6 class="card-text"><strong style="color:#0077C8;">Valor a Pagar: </strong>Ginecologia</h6>
+                                              
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        
+        <!--seccion cuatro-->  
+        <div class="container formadepago"> 
         <div class="row">
-          <div class="col col-lg-2">
-            <h5><span class="card-text"><i class="fas fa-angle-right"></i> Detalle:</span></h5>
-          </div>
-        </div>
-        <div class="row justify-content-md-center">
-          <div class="col-lg-12">
-            <div class="card w-80">
-              <div class="card-body">
+                <div class="col col-lg-2">
+                        <h5><span class="card-text"><i class="fas fa-angle-right"></i> ¿Cómo quieres pagar?:</span></h5>
+                </div>
+                <div class="col-md-auto">
+                        <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                <img src="./assets/imagenes/image.png" alt="" srcset="">
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                <label class="form-check-label" for="exampleRadios2">
+                                  Pagar con Excedentes
+                                </label>
+                              </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                        <div class="form-check terminos">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                <label class="form-check-label" for="exampleRadios2">
+                                  Acepto los términos y las condiciones
+                                </label>
+                              </div>
+                </div>
                 <div class="row">
-                  <div class="col col-lg-4">
-                    <p class="card-text"><strong>Beneficiario:</strong></p>
-                    <p class="card-text"><strong>Médico</strong></p>
-                    <p class="card-text"><strong>Centro de Atención:</strong></p>
-                  </div>
-                  <div class="col col-lg-4">
-                    <p class="card-text">Nicole Fernandez Ramirez</p>
-                    <p class="card-text">Catalina Larrain Soler</p>
-                    <p class="card-text">Clinica Santa Maria</p>
-                  </div>
-                  <div class="col col-lg-4">
-                    <p class="card-text"><strong>Especialidad:</strong>Ginecologia</p>
-                    <p class="card-text"><strong>Comuna:</strong>Providencia</p>
-
-                  </div>
+                <div class="col">
+                        <a href="#" class="btn btn-primary btnMaxRound pagar">Pagar</a>
+                </div>
                 </div>
               </div>
             </div>
-          </div>
         </div>
-        <div class="row justify-content-md-center">
-          <div class="col-lg-12">
-            <div class="card w-80">
-              <div class="card-body">
-                <div class="row">
-                  <div class="col col-lg-4">
-                    <p class="card-text"><strong>Valor Prestación:</strong> $27.378</p>
-                  </div>
-                  <div class="col col-lg-4">
-                    <p class="card-text"><strong>Cobertura:</strong> $16.427</p>
-                  </div>
-                  <div class="col col-lg-4">
-                    <h6 class="card-text"><strong style="color:#0077C8;">Valor a Pagar: </strong>Ginecologia</h6>
+    </section>  
 
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
-    </section>
+
 
     <!-- =================================================Bono 2=============================================================== -->
 
     <!-- =================================================Bono 3 =============================================================== -->
- 
+   
+  </section>
+  <section class="reembolso" id="bono3">
       <section class="container navbarDB">
         <div class="row">
           <div class="col-md-12 col-lg-8 col-xl-9" style="padding-top: 180px;padding-bottom: 0;">
@@ -692,7 +752,7 @@
           </div>
         </div>
       </section>
- <section class="reembolso">
+
       <section class="container">
         <div class="row justify-content-center align-items-center">
           <div class="col-md-12 col-lg-8 col-xl-9 mt-auto" style="padding-top: 50px;padding-bottom: 0;">
@@ -704,11 +764,12 @@
               <div class="col-md-12 col-lg-8 col-xl-9">
                 <div class="btn-group btn-group-toggle btnCircleGroup" data-toggle="buttons">
 
-                  <button type="button" class="btn btn-primary rounded-circle btnCircle">1</button>
+                  <button type="button" class="btn btn-primary rounded-circle btnCircle" onclick="showBonosUno()">1</button>
 
-                  <button type="button" class="btn btn-primary rounded-circle btnCircle">2</button>
+                  <button type="button" class="btn btn-primary rounded-circle btnCircle" onclick="showBonosDos()">2</button>
 
-                  <button type="button" class="btn btn-primary  rounded-circle btnCircle">3</button>
+                  <button type="button" class="btn btn-primary  rounded-circle btnCircle" onclick="showBonosTres()">3</button>
+
                 </div>
               </div>
             </div>
