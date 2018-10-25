@@ -70,3 +70,9 @@ fa-angle-right{
   background-color: transparent;
   border: none;
 }
+
+.datos{
+  border: solid 2px #0077C8;
+  border-radius: 30px;
+  width: 80%;
+}
