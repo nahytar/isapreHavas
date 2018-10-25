@@ -71,6 +71,11 @@ fa-angle-right{
   border: none;
 }
 
+.datos{
+  border: solid 2px #0077C8;
+  border-radius: 30px;
+  width: 80%;
+}
 .iconcheck {
   font-size: 80px;
   color: rgb(15, 209, 15);
