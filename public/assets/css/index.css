@@ -43,9 +43,21 @@
 .iconLock {
   font-size: 20px;
   color: #333333;
-} {}
+}
 
 .txt {
   text-align: left;
-  color: 
+}
+.tituloPrincipal{
+  color:#0077C8;
+}
+hr{
+  background-color:#0077C8;
+  height: 1px;
+}
+.fas {
+  color: #0077C8;
+}
+.fa-redo-alt{
+  color:white;
 }
