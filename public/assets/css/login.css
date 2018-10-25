@@ -1,29 +1,40 @@
 /* Diseño primer menu */ 
+.body{
+    padding: 0%;
+    margin: 0%;
+}
 .sucursales{
-    color:rgb(1, 119, 200) !important;
+    color:#0077c8 !important;
+    font-family: 'Roboto', sans-serif;
 }
 .servicio{
-    color:rgb(1, 119, 200) !important;
+    color:#0077c8 !important;
+    font-family: 'Roboto', sans-serif;
 }
 .buscar{
-    color:rgb(1, 119, 200);
-    border-color:rgb(1, 119, 200);;
+    color:#0077c8;
+    border-color:#0077c8;
 }
 ::placeholder{
-    color:rgb(1, 119, 200) !important; 
+    color:#0077c8 !important; 
+    font-family: 'Roboto', sans-serif;
 }
 
 /*Diseño segundo menu */
 
 .bg-light{
-    background-color: rgb(48, 122, 173) !important;
+    background-color: #0077c8 !important;
 }
 .logo{
     width: 20%;
 }
+.menu{
+    color: white !important;
+}
 .contacta{
     border-color: white;
     color: white;
+    font-family: 'Roboto', sans-serif;
 } 
 /*formulario */
 .login{
@@ -42,22 +53,195 @@ background-repeat: no-repeat;
 }
 .tituloLogin{
     font-size: 20px;
-    color:rgb(48, 122, 173);
+    color:#0077c8;
+    font-family: 'Roboto', sans-serif;
+    
     
 }
 .correo{
 color: rgb(48, 122, 173);
+font-family: 'Roboto', sans-serif;
 }
 .ingresar{
     background-color: rgb(241, 240, 240) !important;
     border-color: rgb(212, 212, 212) !important;
     color: rgb(212, 212, 212) !important;
+    font-family: 'Roboto', sans-serif;
+}
+.chatbot{
+    margin-top: 170%;
+    margin-left: 60%;
 }
  /*diseño de segunda caja*/
  .info{
      background-color:white;
      height: 160px;
      margin-top: 0px;
-     border-top: 5px solid rgb(48, 122, 173);
+     border-top: 5px solid #0077c8;
+ }
+ .tituloSegundaSección{
+     margin-top: 10%;
+     padding: 0px, 10px, 0px, 10px; 
+    color: rgb(158, 158, 158);
+    text-align:left;
+    font-family: 'Roboto', sans-serif;
+ }
+ .parrafoSegundaSección{
+     text-align: left;
+     color:rgb(158, 158, 158);
+     font-family: 'Roboto', sans-serif;
+ }
+ /*Diseño de tercera sección*/
+ .tercera{
+ height: 300px;
+ background-color: #0077c8;
  }
 
+ /*Diseño de cuarta sección*/
+.cuarta{
+    background-color: rgb(158, 158, 158);
+    height: 200%;
+}
+.blanco{
+    height: 250px;
+    background-color: white;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    
+}
+.tituloCuartaSección{
+    margin-top: 10%;
+    padding: 0px, 10px, 0px, 10px; 
+   color:#0077c8 ;
+   text-align:left;
+   font-family: 'Roboto', sans-serif;
+}
+.cuartaSección{
+    border-color: #0077c8  !important;
+    border: solid 2px;
+    color: #0077c8 !important ;   
+}
+.blanco2{
+    height: 500px;
+    background-color: white;
+    margin-bottom:4%; 
+}
+.blanco3{
+    height: 400px;
+    background-color: white;
+}
+.salcobrand{
+    width: 360px;
+}
+.niño{
+width: 360px;
+}
+.tienda{
+width: 360px
+}
+.imglogo{
+    width: 200px;
+}
+.seguros{
+    background-image: url(../imagenes/jose6.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.fondoSeguros{
+    margin-top:15%;
+    background-color: white;
+    opacity: 0.8;
+    height: 300px;
+}
+.información{
+    background-color: rgb(158, 158, 158);
+    height: 380px;
+}
+.fondoInformación{
+    margin-top: 4%;
+    background-color: white;
+    height: 300px;
+}
+.ultimoTitulo{
+    margin-top: 30%;
+    color: #0077c8;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.ultimoParrafo{
+    color:rgb(158, 158, 158);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.informacio{
+    border-color: #0077c8  !important;
+    border: solid 2px;
+    color: #0077c8 !important ; 
+    margin-left: 35%;
+}
+/*Diseño ultima sección*/
+.ultima{
+background-color: #0077c8;
+height: 500px;
+}
+.bajada{
+    margin-top: 20%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.bajadaparrafo{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+@media(max-width: 425px){
+    .fondoLogin{
+        width: 150px;
+        margin-top: 5%;
+        padding: 5%;
+        margin-left: 10%;
+        border-radius: 10px;
+        margin-right: 10%;
+        
+    }
+    .chatbot{
+        margin-top: 200%;
+        margin-left: 200%;
+    }
+    .info{
+        height: 440px;
+    }
+    .blanco{
+        height:440px;
+        margin-left: 4%;
+    }
+    .blanco2{
+        height: 100%;
+        padding-bottom: 10%; 
+    }
+    .salcobrand{
+        width: 390px;
+    }
+    .niño{
+    width: 390px;
+    }
+    .tienda{
+    width: 390px
+    }
+    .cuarta{
+        background-color: rgb(158, 158, 158);
+        height: 100%;
+    }
+    .fondoSeguros{
+        height: 100%;
+        padding-bottom: 10%;
+    }
+    .información{
+        margin-top: 10%;
+        background-color: white;
+        padding-bottom: 10%;
+    }
+    .fondoInformación{
+        padding-bottom: 10%;
+    }
+}

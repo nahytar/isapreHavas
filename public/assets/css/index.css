@@ -1,0 +1,51 @@
+.indexNabar {
+  background-color: #0077c8;
+}
+
+.styleCard {
+  margin-bottom: 15px;
+}
+
+.areaPricipal {
+  margin-top: 80px;
+}
+
+.card {
+  border-radius: 25px;
+  border: solid 2px;
+  margin-bottom: 10px;
+}
+
+.cardSection {
+  text-align: center;
+}
+
+.btnMaxRound {
+  background: #0077C8;
+  border-radius: 73px;
+}
+
+.iconBono, .iconReembolso {
+  font-size: 48px;
+  color: rgba(0, 119, 200, 0.51);
+}
+
+.iconsBeneficios {
+  text-align: left;
+  margin-left: 30px;
+}
+
+.iconCheck {
+  font-size: 20px;
+  color: #04BD00;
+}
+
+.iconLock {
+  font-size: 20px;
+  color: #333333;
+} {}
+
+.txt {
+  text-align: left;
+  color: 
+}
