@@ -39,6 +39,7 @@
 
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/index.css">
+  <link rel="stylesheet" href="./assets/css/reembolso.css">
 
 </head>
 
@@ -298,7 +299,7 @@
               <h5 class="card-title">Bonos web</h5>
               <p><i class="fab fa-wpforms iconBono"></i></p>
               <p>Puedes comprar tus bonos direcatmente desde tu sucursal virtual.</p>
-              <a href="#" class="btn btn-primary btnMaxRound">Comprar bono</a>
+              <a href="#" class="btn btn-primary btnMaxRound" onclick="showBonos()">Comprar bono</a>
             </div>
           </div>
 
@@ -350,6 +351,170 @@
 
 
   <!-- ===================================Fin area media========================================= -->
+
+  <!-- =================================================Rembolso=============================================================== -->
+  <section id="areaBonoUno">
+    <section class="container navbarDB">
+      <div class="row">
+        <div class="col-md-12 col-lg-8 col-xl-9" style="padding-top: 180px;padding-bottom: 0;">
+          <div class="btn-group btn-group-toggle" data-toggle="buttons">
+
+            <button type="button" class="btnMedRound btn btn-primary text-center">Plan y Beneficios</button>
+
+            <button type="button" class="btnMedNoRound btn btn-primary text-center">Bonos y Reembolsos</button>
+
+            <button type="button" class="btnMedNoRound btn btn-primary  text-center">Certificados</button>
+
+            <button type="button" class="btnMedNoRound btn btn-primary  text-center">Coizaciones</button>
+
+            <button type="button" class="btnMedRound btn btn-primary text-center">Excedentes y Excesos</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-12 col-lg-8 col-xl-9 mt-auto" style="padding-top: 50px;padding-bottom: 0;">
+          <button type="button" class="btn btn-link">Incio ></button><button type="button" class="btn btn-link">Bonos</button>
+          <h3>Compra Bonos Web</h3> <span>Paso 1 de 3 busqueda de especialista</span>
+        </div>
+        <section class="container navbarDB">
+          <div class="row">
+            <div class="col-md-12 col-lg-8 col-xl-9">
+              <div class="btn-group btn-group-toggle btnCircleGroup" data-toggle="buttons">
+
+                <button type="button" class="btn btn-primary rounded-circle btnCircle">1</button>
+
+                <button type="button" class="btn btn-primary rounded-circle btnCircle">2</button>
+
+                <button type="button" class="btn btn-primary  rounded-circle btnCircle">3</button>
+              </div>
+            </div>
+          </div>
+        </section>
+    </section>
+
+    <section class="container">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-12 col-lg-8 col-xl-9" style="padding-top: 10px;">
+
+          <div class="row justify-content-between">
+
+            <div class="col-5">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <label class="input-group-text" for="inputGroupSelect01">
+                    <i class="fas fa-angle-right"></i> Beneficiario:
+                  </label>
+                </div>
+                <select class="custom-select" id="inputGroupSelect01">
+                  <option selected>Todas</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-12 col-lg-8 col-xl-9" style="padding-top: 10px;">
+            <div class="row">
+              <label class="input-group-text" for="inputGroupSelect01">
+                <i class="fas fa-angle-right"></i> Medico:
+              </label>
+            </div>
+            <div class="row justify-content-between">
+              <div class="col-3">
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">Nombre del profesional: </span>
+                  </div>
+                </div>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <label class="input-group-text" for="inputGroupSelect01">Región:</label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-3">
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                <select class="custom-select" id="inputGroupSelect01">
+                  <option selected>Todas</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+
+              <div class="col-3">
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <label class="input-group-text" for="inputGroupSelect01">Especialidad:</label>
+                  </div>
+                </div>
+
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <label class="input-group-text" for="inputGroupSelect01">Comuna:</label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-3">
+                <select class="custom-select" id="inputGroupSelect01">
+                  <option selected>Todas</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+
+                <select class="custom-select" id="inputGroupSelect01">
+                  <option selected>Todas</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-12 col-lg-8 col-xl-9" style="padding-top: 10px;">
+          <label class="input-group-text" for="inputGroupSelect01">
+            <i class="fas fa-angle-right"></i> Resultado de busqueda:
+          </label>
+        </div>
+      </div>
+
+      <section class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-12 col-lg-8 col-xl-9" style="padding-top: 10px;">
+            <div class="table-responsive">
+              <table class="table trBlue">
+                <thead>
+                  <tr>
+                    <th>Documento de cobro</th>
+                    <th>Orden Medica</th>
+                    <th>Informe Detalle Cobro</th>
+                    <th>Eliminar</th>
+                  </tr>
+                </thead>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </section>
+  <!-- =================================================Rembolso=============================================================== -->
 
   <script src="assets/js/login.js"></script>
   <script src="assets/js/main.js"></script>
