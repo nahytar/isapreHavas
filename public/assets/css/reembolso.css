@@ -81,3 +81,12 @@ fa-angle-right{
   background-color: transparent;
   border: none;
 }
+
+.iconcheck {
+  font-size: 80px;
+  color: rgb(15, 209, 15);
+}
+
+.btnDescarga {
+  margin-bottom: 20px;
+}
