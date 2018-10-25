@@ -35,7 +35,8 @@ h3 h5{
 }
 
 .navbarDB{
-  justify-content: center; display: flex;
+  justify-content: center; 
+  display: flex;
 }
 
 .btn-primary{
@@ -60,6 +61,16 @@ h3 h5{
 th{
   background-color: #0077C8;
   color: white;
+}
+
+.roundThLeft{
+  border-top-left-radius: 17px;
+  border-bottom-left-radius: 17px;
+}
+
+.roundThRight{
+  border-top-right-radius: 17px;
+  border-bottom-right-radius: 17px;
 }
 
 fa-angle-right{
